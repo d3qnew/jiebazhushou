@@ -1,0 +1,94 @@
+/* pages/tt/tt.wxss */
+
+
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+
+}
+
+
+#tt-main{
+    width: 750rpx;
+    height: 1200rpx;
+    overflow: hidden;
+}
+
+
+#t0,#t1,#t2{
+    word-break:break-all;
+    float: left;
+}
+
+
+
+#t0{
+    width: 25%;
+    height: 60rpx;
+}
+
+
+#t2{
+    background-color: rgb(226, 136, 0);
+    width: 25%;
+    height: 90%;
+    
+}
+
+
+#t1{
+    background-color: aqua;
+    width: 75%;
+    height: 60rpx;
+    
+}
+.t1p{
+    width: 3060rpx;
+    height: 100%;
+}
+
+
+#t3p{    
+    width: 75%;
+    height: 90%;
+    overflow: scroll;
+}
+
+#t3{    
+    word-break:break-all;
+    width: 3060rpx;
+}
+
+.tttable{
+    border-top: 1rpx solid #333;
+    border-left: 1rpx solid #333;
+}
+
+.tttr,.tttd{
+    font-size: 24rpx;
+    height: 60rpx;    
+    text-align: center;
+    border-right: 1rpx solid #333;
+    border-bottom: 1rpx solid #333;    
+    overflow: scroll;    
+}
+
+.tttrx{
+    white-space:nowrap;
+    width: 100%;
+    clear: both;
+}
+.tttr{
+    width: 100%;
+    margin: -1rpx 0 0 -1rpx;
+}
+
+.tttd{
+    float: left;
+    width: 180rpx;
+    margin: -1rpx 0 0 -1rpx;
+}
+
+

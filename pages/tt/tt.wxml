@@ -1,0 +1,53 @@
+<!--pages/tt/tt.wxml-->
+<template name="tt">
+    
+    
+    <view class="section rolelstop" style='margin-left: 300rpx;'>
+        <picker mode="multiSelector" bindchange="bindPickerChange" value="{{roleindex}}" range="{{nls}}">
+            <view class="picker rolels">{{nls[0][roleindex[0]]}} {{nls[1][roleindex[1]]}}</view>
+        </picker>
+    </view>
+    
+    
+    
+
+    <view id='tt-main' class='tttable'>
+
+        <view id='t0' class='tttd'>招式</view>
+        <scroll-view scroll-x="true" scroll-left="{{ttscrollLeft}}" id='t1'>
+            <view class="t1p">
+                <view class="tttd " wx:for="{{roledata.a}}" wx:key="{{}}">
+                    {{item}}
+                </view>
+            </view>
+        </scroll-view>
+
+        <scroll-view scroll-y="true" scroll-top="{{ttscrollTop}}" id='t2'>
+            <view class="tttr " wx:for="{{roledata.b}}" wx:key="{{}}">
+                {{item}}
+            </view>
+        </scroll-view>
+
+        <scroll-view scroll-x="true" scroll-y="true" bindscroll="ttscroll" scroll-left="{{ttscrollLeft}}" scroll-top="{{ttscrollTop}}" id='t3p'>
+            <view id='t3'>
+                <view class="tttrx " wx:for="{{roledata.c}}" wx:key="{{}}" wx:for-index="i">
+
+                    <view class="tttd " wx:for="{{roledata.c[i]}}" wx:key="{{}}">
+                        {{item}}
+                    </view>
+                </view>
+            </view>
+        </scroll-view>
+
+
+
+
+    </view>
+
+
+
+
+
+
+
+</template>

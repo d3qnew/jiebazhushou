@@ -1,0 +1,31 @@
+<!--pages/news/news.wxml-->
+
+<template name="news">
+    <view style='height:84rpx'></view>
+
+    <text>news</text>
+
+
+    <view class='tv'>
+        <view class='tv1'>
+            <view class='tv2'></view>
+            <view class='tv2'></view>
+            <view class='tv2'></view>
+            <view class='tv2'></view>
+        </view>
+
+        <view class='tv1'>
+            <view class='tv2'></view>
+            <view class='tv2'></view>
+            <view class='tv2'></view>
+            <view class='tv2'></view>
+        </view>
+    </view>
+
+
+
+
+
+
+
+</template>
