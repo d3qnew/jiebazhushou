@@ -61,7 +61,7 @@
 }
 
 .rolels {
-    font-size: 64rpx;
+    font-size: 48rpx;
     height: 86rpx;
 }
 
@@ -74,4 +74,4 @@
 
 @import "../role/role.wxss";
 @import "../tt/tt.wxss";
-@import "../news/news.wxss";
+@import "../basic/basic.wxss";

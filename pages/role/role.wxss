@@ -3,10 +3,11 @@
 .duibitop-v0{
     text-align: center;
     width: 100%;
+    margin-top: -5rpx;
 }
 
 .duibitop-v1{
-    width: 30%;
+    width: 40%;
     display: inline-block;
 }
 

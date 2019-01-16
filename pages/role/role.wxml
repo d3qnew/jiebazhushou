@@ -4,14 +4,14 @@
 <view class='duibitop-v0'>
 
     <view class="section rolelstop duibitop-v1">
-        <picker mode="multiSelector" bindchange="bindPickerChange" value="{{roleindex}}" range="{{nls}}">
-            <view class="picker rolels">{{nls[0][roleindex[0]]}} {{nls[1][roleindex[1]]}}</view>
+        <picker id='duibiroleid1' mode="multiSelector" bindchange="bindPickerChangeduibi"  range="{{nls}}">
+            <view class="picker rolels">{{nls[0][duibirole1[0]]}} {{nls[1][duibirole1[1]]}}</view>
         </picker>
     </view>
-    <view class='duibitop-v1' style='width:100rpx;'> </view>
+
     <view class="section rolelstop duibitop-v1">
-        <picker mode="multiSelector" bindchange="bindPickerChange" value="{{roleindex}}" range="{{nls}}">
-            <view class="picker rolels">{{nls[0][roleindex[0]]}} {{nls[1][roleindex[1]]}}</view>
+        <picker id='duibiroleid2' mode="multiSelector" bindchange="bindPickerChangeduibi"  range="{{nls}}">
+            <view class="picker rolels">{{nls[0][duibirole2[0]]}} {{nls[1][duibirole2[1]]}}</view>
         </picker>
     </view>
 

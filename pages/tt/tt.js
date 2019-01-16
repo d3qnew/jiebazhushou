@@ -10,7 +10,7 @@ function tt(tpob,db,tbl) {
         let vvt = tpob.data.nls[1][i];
         let zdata = db[ename][vvt];
         
-        console.log(tt.tbl1);
+        // console.log(tt.tbl1);
 
         this.setData({
             roleindex: [e.detail.value[0], e.detail.value[1]],  

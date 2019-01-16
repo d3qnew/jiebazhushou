@@ -135,6 +135,7 @@ var vtdata = jsonToStr(dbdata['vt1']);
 // console.log(transJson(dbdata['vt1']));
 
 const tt = require('../tt/tt.js');
+const role = require('../role/role.js');
 
 
 
@@ -164,13 +165,15 @@ Page({
         vt: 'vt1',
         tbl: tbl,
         ttscrollLeft: 0,
-        ttscrollTop: 0
+        ttscrollTop: 0,
+        
 
     },
 
     onLoad: function(e) {
         // console.log(tbl)
         tt.tt(this, db, tbl1);
+        role.role(this,db);
     },
 
 
